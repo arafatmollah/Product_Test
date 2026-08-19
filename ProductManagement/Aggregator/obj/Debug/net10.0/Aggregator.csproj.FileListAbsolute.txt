@@ -1,0 +1,16 @@
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.csproj.AssemblyReference.cache
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.AssemblyInfoInputs.cache
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.AssemblyInfo.cs
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.csproj.CoreCompileInputs.cache
+D:\ProductManagement\ProductManagement\Aggregator\bin\Debug\net10.0\Aggregator.deps.json
+D:\ProductManagement\ProductManagement\Aggregator\bin\Debug\net10.0\Aggregator.dll
+D:\ProductManagement\ProductManagement\Aggregator\bin\Debug\net10.0\Aggregator.pdb
+D:\ProductManagement\ProductManagement\Aggregator\bin\Debug\net10.0\DTO.dll
+D:\ProductManagement\ProductManagement\Aggregator\bin\Debug\net10.0\DTO.pdb
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.csproj.Up2Date
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.dll
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\refint\Aggregator.dll
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.pdb
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\ref\Aggregator.dll
+D:\ProductManagement\ProductManagement\Aggregator\obj\Debug\net10.0\Aggregator.sourcelink.json
