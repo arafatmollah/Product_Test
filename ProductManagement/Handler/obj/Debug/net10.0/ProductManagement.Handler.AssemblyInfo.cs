@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductManagement.Handler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78020c3e00ab8fc5ad9c324fbe5c194dae2dfcf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2688a59eb5b0b4d22cfd10b98ce8f338a3c79bac")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductManagement.Handler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductManagement.Handler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
