@@ -4,12 +4,12 @@
     "D:\\ProductManagement\\ProductManagement\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj": {
+    "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj",
-        "projectName": "Aggregator",
-        "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj",
+        "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj",
+        "projectName": "ProductManagement.Aggregator",
+        "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj",
         "packagesPath": "C:\\Users\\arafat.mollah\\.nuget\\packages\\",
         "outputPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,8 +33,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj"
+              "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj": {
+                "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj"
               }
             }
           }
@@ -349,12 +349,12 @@
         }
       }
     },
-    "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj": {
+    "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj",
-        "projectName": "DTO",
-        "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj",
+        "projectName": "ProductManagement.DTO",
+        "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj",
         "packagesPath": "C:\\Users\\arafat.mollah\\.nuget\\packages\\",
         "outputPath": "D:\\ProductManagement\\ProductManagement\\DTO\\obj\\",
         "projectStyle": "PackageReference",
@@ -719,8 +719,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj": {
-                "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj"
+              "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj": {
+                "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj"
               }
             }
           }

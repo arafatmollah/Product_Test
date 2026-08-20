@@ -9,6 +9,7 @@ namespace ProductManagement.API.Controllers;
 public class ProductController : ControllerBase
 {
     private readonly ProductAggregator _productAggregator;
+    private readonly Createproducthan _createProduct;
 
     public ProductController(ProductAggregator productAggregator)
     {
@@ -16,10 +17,10 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<ProductResponse>> Create(
-        CreateProductRequest request)
+    public ActionResult<ProductResponse> Create(
+    CreateProductRequest request)
     {
-        var result = await _productAggregator.CreateAsync(request);
+        var result = _productAggregator.Create(request);
 
         return Ok(result);
     }

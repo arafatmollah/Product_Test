@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o5HxPxt789g=",
+  "dgSpecHash": "a6riHRQrz5g=",
   "success": true,
-  "projectFilePath": "D:\\ProductManagement\\ProductManagement\\Handler\\Handler.csproj",
+  "projectFilePath": "D:\\ProductManagement\\ProductManagement\\Handler\\ProductManagement.Handler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arafat.mollah\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\arafat.mollah\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

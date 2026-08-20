@@ -724,42 +724,42 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Aggregator/1.0.0": {
+      "ProductManagement.Aggregator/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "DTO": "1.0.0"
+          "ProductManagement.DTO": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Aggregator.dll": {}
+          "bin/placeholder/ProductManagement.Aggregator.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Aggregator.dll": {}
+          "bin/placeholder/ProductManagement.Aggregator.dll": {}
         }
       },
-      "DTO/1.0.0": {
+      "ProductManagement.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/DTO.dll": {}
+          "bin/placeholder/ProductManagement.DTO.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DTO.dll": {}
+          "bin/placeholder/ProductManagement.DTO.dll": {}
         }
       },
-      "Repository/1.0.0": {
+      "ProductManagement.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "Aggregator": "1.0.0",
           "Microsoft.EntityFrameworkCore": "10.0.11",
-          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11"
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.11",
+          "ProductManagement.Aggregator": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ProductManagement.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Repository.dll": {}
+          "bin/placeholder/ProductManagement.Repository.dll": {}
         }
       }
     }
@@ -1760,27 +1760,27 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Aggregator/1.0.0": {
+    "ProductManagement.Aggregator/1.0.0": {
       "type": "project",
-      "path": "../Aggregator/Aggregator.csproj",
-      "msbuildProject": "../Aggregator/Aggregator.csproj"
+      "path": "../Aggregator/ProductManagement.Aggregator.csproj",
+      "msbuildProject": "../Aggregator/ProductManagement.Aggregator.csproj"
     },
-    "DTO/1.0.0": {
+    "ProductManagement.DTO/1.0.0": {
       "type": "project",
-      "path": "../DTO/DTO.csproj",
-      "msbuildProject": "../DTO/DTO.csproj"
+      "path": "../DTO/ProductManagement.DTO.csproj",
+      "msbuildProject": "../DTO/ProductManagement.DTO.csproj"
     },
-    "Repository/1.0.0": {
+    "ProductManagement.Repository/1.0.0": {
       "type": "project",
-      "path": "../Repository/Repository.csproj",
-      "msbuildProject": "../Repository/Repository.csproj"
+      "path": "../Repository/ProductManagement.Repository.csproj",
+      "msbuildProject": "../Repository/ProductManagement.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Aggregator >= 1.0.0",
-      "DTO >= 1.0.0",
-      "Repository >= 1.0.0"
+      "ProductManagement.Aggregator >= 1.0.0",
+      "ProductManagement.DTO >= 1.0.0",
+      "ProductManagement.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1790,9 +1790,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\Handler\\Handler.csproj",
-      "projectName": "Handler",
-      "projectPath": "D:\\ProductManagement\\ProductManagement\\Handler\\Handler.csproj",
+      "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\Handler\\ProductManagement.Handler.csproj",
+      "projectName": "ProductManagement.Handler",
+      "projectPath": "D:\\ProductManagement\\ProductManagement\\Handler\\ProductManagement.Handler.csproj",
       "packagesPath": "C:\\Users\\arafat.mollah\\.nuget\\packages\\",
       "outputPath": "D:\\ProductManagement\\ProductManagement\\Handler\\obj\\",
       "projectStyle": "PackageReference",
@@ -1816,14 +1816,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj": {
-              "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\Aggregator.csproj"
+            "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj": {
+              "projectPath": "D:\\ProductManagement\\ProductManagement\\Aggregator\\ProductManagement.Aggregator.csproj"
             },
-            "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj"
+            "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj": {
+              "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj"
             },
-            "D:\\ProductManagement\\ProductManagement\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\ProductManagement\\ProductManagement\\Repository\\Repository.csproj"
+            "D:\\ProductManagement\\ProductManagement\\Repository\\ProductManagement.Repository.csproj": {
+              "projectPath": "D:\\ProductManagement\\ProductManagement\\Repository\\ProductManagement.Repository.csproj"
             }
           }
         }

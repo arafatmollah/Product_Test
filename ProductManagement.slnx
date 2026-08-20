@@ -1,9 +1,9 @@
 <Solution>
   <Folder Name="/ProductManagement/">
-    <Project Path="ProductManagement/Aggregator/Aggregator.csproj" />
-    <Project Path="ProductManagement/DTO/DTO.csproj" />
-    <Project Path="ProductManagement/Handler/Handler.csproj" />
+    <Project Path="ProductManagement/Aggregator/ProductManagement.Aggregator.csproj" />
+    <Project Path="ProductManagement/DTO/ProductManagement.DTO.csproj" />
+    <Project Path="ProductManagement/Handler/ProductManagement.Handler.csproj" />
     <Project Path="ProductManagement/ProductManagement.API/ProductManagement.API.csproj" />
-    <Project Path="ProductManagement/Repository/Repository.csproj" />
+    <Project Path="ProductManagement/Repository/ProductManagement.Repository.csproj" />
   </Folder>
 </Solution>

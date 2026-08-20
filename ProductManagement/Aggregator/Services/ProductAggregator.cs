@@ -1,26 +1,34 @@
 using Aggregator.Entities;
+using DTO.Product;
 
 namespace Aggregator.Services;
 
 public class ProductAggregator
 {
-    public Product Create(
-        string name,
-        string description,
-        decimal price)
+    public Product Create(string name, string description, CreateProductRequest request)
     {
-        if (string.IsNullOrWhiteSpace(name))
+        if (string.IsNullOrWhiteSpace(request.Name))
             throw new ArgumentException("Product name is required.");
 
-        if (price <= 0)
+        if (request.Price <= 0)
             throw new ArgumentException(
                 "Product price must be greater than zero.");
 
+        if (request.Quantity <= 0)
+            throw new ArgumentException(
+                "Product quantity must be greater than zero.");
+
+        if (request.ExpirationDate <= DateTime.UtcNow)
+            throw new ArgumentException(
+                "Product expiration date must be in the future.");
+
         return new Product
         {
-            Name = name,
-            Description = description,
-            Price = price
+            Name = request.Name,
+            Description = request.Description,
+            Quantity = request.Quantity,
+            ExpirationDate = request.ExpirationDate,
+            Price = request.Price
         };
     }
 }
