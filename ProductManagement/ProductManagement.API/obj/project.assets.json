@@ -1122,21 +1122,6 @@
           "bin/placeholder/ProductManagement.DTO.dll": {}
         }
       },
-      "ProductManagement.Handler/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "ProductManagement.Aggregator": "1.0.0",
-          "ProductManagement.DTO": "1.0.0",
-          "ProductManagement.Repository": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ProductManagement.Handler.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProductManagement.Handler.dll": {}
-        }
-      },
       "ProductManagement.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3230,11 +3215,6 @@
       "path": "../DTO/ProductManagement.DTO.csproj",
       "msbuildProject": "../DTO/ProductManagement.DTO.csproj"
     },
-    "ProductManagement.Handler/1.0.0": {
-      "type": "project",
-      "path": "../Handler/ProductManagement.Handler.csproj",
-      "msbuildProject": "../Handler/ProductManagement.Handler.csproj"
-    },
     "ProductManagement.Repository/1.0.0": {
       "type": "project",
       "path": "../Repository/ProductManagement.Repository.csproj",
@@ -3247,7 +3227,6 @@
       "Microsoft.EntityFrameworkCore.Design >= 10.0.11",
       "ProductManagement.Aggregator >= 1.0.0",
       "ProductManagement.DTO >= 1.0.0",
-      "ProductManagement.Handler >= 1.0.0",
       "ProductManagement.Repository >= 1.0.0"
     ]
   },
@@ -3289,9 +3268,6 @@
             },
             "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj": {
               "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj"
-            },
-            "D:\\ProductManagement\\ProductManagement\\Handler\\ProductManagement.Handler.csproj": {
-              "projectPath": "D:\\ProductManagement\\ProductManagement\\Handler\\ProductManagement.Handler.csproj"
             },
             "D:\\ProductManagement\\ProductManagement\\Repository\\ProductManagement.Repository.csproj": {
               "projectPath": "D:\\ProductManagement\\ProductManagement\\Repository\\ProductManagement.Repository.csproj"
