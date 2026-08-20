@@ -149,11 +149,9 @@ D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\r
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Aggregator.dll
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\DTO.dll
-D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Handler.dll
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Repository.dll
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\DTO.pdb
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Aggregator.pdb
-D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Handler.pdb
 D:\ProductManagement\ProductManagement\ProductManagement.API\bin\Debug\net10.0\Repository.pdb
 D:\ProductManagement\ProductManagement\ProductManagement.API\obj\Debug\net10.0\ProductManagement.API.MvcApplicationPartsAssemblyInfo.cs
 D:\ProductManagement\ProductManagement\ProductManagement.API\obj\Debug\net10.0\rjimswa.dswa.cache.json

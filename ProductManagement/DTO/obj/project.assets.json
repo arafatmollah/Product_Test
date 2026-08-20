@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj",
-      "projectName": "DTO",
-      "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\DTO.csproj",
+      "projectUniqueName": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj",
+      "projectName": "ProductManagement.DTO",
+      "projectPath": "D:\\ProductManagement\\ProductManagement\\DTO\\ProductManagement.DTO.csproj",
       "packagesPath": "C:\\Users\\arafat.mollah\\.nuget\\packages\\",
       "outputPath": "D:\\ProductManagement\\ProductManagement\\DTO\\obj\\",
       "projectStyle": "PackageReference",

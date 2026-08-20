@@ -1,5 +1,4 @@
-﻿
-using Aggregator.Services;
+﻿using Aggregator.Services;
 using DTO.Product;
 using Repository;
 
@@ -21,6 +20,8 @@ public class CreateProductHandler(
         var product = _productAggregator.Create(
             command.Name,
             command.Description,
+            command.Quantity,
+            command.ExpirationDate,
             command.Price);
 
         var createdProduct =
